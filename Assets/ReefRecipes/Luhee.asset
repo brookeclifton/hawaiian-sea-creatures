@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 922b81e9d83af40f3ab57d6c8a92274b, type: 3}
+  m_Name: Luhee
+  m_EditorClassIdentifier: Assembly-CSharp::Reef.ReefRecipe
+  hawaiianName: "Luhe\u02BBe"
+  englishName: Octopus lure
+  image: {fileID: 2800000, guid: f49554360cc0149048e8cea266eb7e13, type: 3}
+  ingredients:
+  - label: Leho (cowrie shell)
+    count: 1
+    accepts:
+    - {fileID: 11400000, guid: 1037f5986b1df4a3eafd2eafe2030f59, type: 2}
+  - label: "P\u014Dhaku (lava rock)"
+    count: 1
+    accepts:
+    - {fileID: 11400000, guid: 0b0eaad23a2f44992a9c3f0018056ed8, type: 2}
+  - label: Driftwood
+    count: 1
+    accepts:
+    - {fileID: 11400000, guid: 529a71780721a441a8acf85134c5ae09, type: 2}
+  - label: Niu (coconut)
+    count: 1
+    accepts:
+    - {fileID: 11400000, guid: 3fd83395cb1d244ec8d130b355c3ee39, type: 2}

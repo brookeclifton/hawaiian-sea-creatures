@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6845621976879407837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8788961475462477144}
+  - component: {fileID: 2503392536023750687}
+  m_Layer: 0
+  m_Name: lavaRock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8788961475462477144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6845621976879407837}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2285335855186832867}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2503392536023750687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6845621976879407837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8d3c722caeb47c6b14b51da04f0164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Reef.SelectableSpecies
+  species: {fileID: 11400000, guid: 0b0eaad23a2f44992a9c3f0018056ed8, type: 2}
+  focusPoint: {fileID: 0}
+  captureRadius: 0
+  minimumCaptureRadius: 0.25
+  selectable: 1
+  hideWhenCollected: 0
+--- !u!1001 &471883086491248680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8788961475462477144}
+    m_Modifications:
+    - target: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 682469292354539001, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      propertyPath: m_Name
+      value: lavaRock
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 682469292354539001, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3920098448307205518}
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+--- !u!1 &1149800121508357585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 682469292354539001, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+  m_PrefabInstance: {fileID: 471883086491248680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &3920098448307205518
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149800121508357585}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6594763120977082161, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+--- !u!4 &2285335855186832867 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7405232868247697973, guid: 3b48fb2f2222c49fcb2fc90f9e34eb07, type: 3}
+  m_PrefabInstance: {fileID: 471883086491248680}
+  m_PrefabAsset: {fileID: 0}

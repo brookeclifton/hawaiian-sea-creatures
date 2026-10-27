@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a979aa6eaf4816b55db98ca153af0, type: 3}
+  m_Name: coconut_Info
+  m_EditorClassIdentifier: Assembly-CSharp::Reef.SpeciesData
+  hawaiianName: Niu
+  commonName: Coconut
+  scientificName: Cocos nucifera
+  category: 9
+  nativeStatus: 3
+  conservationStatus: 
+  sizeText: 
+  description: "- Sacred embodiment of the god K\u016B, the god of war, strength,
+    politics, farming, fishing, and sorcery\r\n- Voyaging staple for its utilitarian
+    properties "
+  funFact: 
+  image: {fileID: 0}
+  namePronunciation: {fileID: 0}
+  collectible: 1
+  points: 1
+  accentColor: {r: 1, g: 0.82, b: 0.35, a: 1}

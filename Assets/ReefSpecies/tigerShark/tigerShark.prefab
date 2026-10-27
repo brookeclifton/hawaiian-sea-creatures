@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &253508178522936767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2529816097112353778}
+  - component: {fileID: 1257259801471842652}
+  - component: {fileID: 3444352317456191455}
+  m_Layer: 0
+  m_Name: tigerShark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2529816097112353778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253508178522936767}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7579128103788380627}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1257259801471842652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253508178522936767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6201ae760dab54f258ef2d460affdebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Reef.ReefAnimationDriver
+  preferredClip: swim
+  playShapeKeyClips: 1
+--- !u!114 &3444352317456191455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253508178522936767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8d3c722caeb47c6b14b51da04f0164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Reef.SelectableSpecies
+  species: {fileID: 11400000, guid: 37d9067d1bc79416cb59f0d470be094a, type: 2}
+  focusPoint: {fileID: 0}
+  captureRadius: 0
+  minimumCaptureRadius: 0.25
+  selectable: 1
+  hideWhenCollected: 0
+--- !u!1001 &2348388043227564439
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2529816097112353778}
+    m_Modifications:
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.62302023
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.62302023
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.62302023
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.000000010419171
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.027382674
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.66020745
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+      propertyPath: m_Name
+      value: tigerShark
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+--- !u!4 &7579128103788380627 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: 31a8abb51222b440da18c432254f1130, type: 3}
+  m_PrefabInstance: {fileID: 2348388043227564439}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 922b81e9d83af40f3ab57d6c8a92274b, type: 3}
+  m_Name: LauAiLimu
+  m_EditorClassIdentifier: Assembly-CSharp::Reef.ReefRecipe
+  hawaiianName: "Lau \u02BBai limu"
+  englishName: Seaweed salad
+  image: {fileID: 2800000, guid: d4631dc3ac9034f3bb953f61f82011a3, type: 3}
+  ingredients:
+  - label: Limu (seaweed)
+    count: 3
+    accepts:
+    - {fileID: 11400000, guid: a4ffb0edc78ec471b8c2a82ec82e78f2, type: 2}

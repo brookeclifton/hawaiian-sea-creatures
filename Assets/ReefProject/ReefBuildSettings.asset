@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ad5b516d6334883a63633599aac807, type: 3}
+  m_Name: ReefBuildSettings
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::Reef.EditorTools.ReefBuildSettings
+  seed: 1234
+  surfaceHeight: 12
+  boundsSize: {x: 80, y: 26, z: 80}
+  boundsCenter: {x: 0, y: 0, z: 4}
+  spawnHeadPosition: {x: 0, y: 5.5, z: -32}
+  spawnYaw: 0
+  terrainSize: 150
+  heightmapResolution: 513
+  sandHeightSouth: 1.5
+  sandHeightNorth: -3.5
+  spurSpacing: 14
+  spurWidth: 0.62
+  spurHeight: 3.2
+  spurStartZ: -24
+  spurEndZ: 70
+  patchReefCount: 8
+  patchReefRadius: {x: 2.5, y: 5}
+  patchReefHeight: {x: 1.2, y: 2.8}
+  scatterMargin: 16
+  layers:
+  - name: Basalt boulders
+    enabled: 1
+    prefabs:
+    - {fileID: 6845621976879407837, guid: f0a1051660d134c7d87aa11dd1714e9a, type: 3}
+    placeholder: 3
+    zone: 4
+    count: 150
+    scale: {x: 0.5, y: 2.2}
+    minSpacing: 1.4
+    clustering: 0.4
+    alignToSlope: 0.7
+    sink: 0.12
+    maxSlope: 60
+    addCollider: 1
+    castShadows: 1
+    makeSelectable: 1
+    species: {fileID: 0}
+    selectableFraction: 1
+    hideWhenCollected: 0
+  - name: Mound corals
+    enabled: 1
+    prefabs: []
+    placeholder: 0
+    zone: 0
+    count: 240
+    scale: {x: 0.5, y: 2}
+    minSpacing: 1.2
+    clustering: 0.5
+    alignToSlope: 0.4
+    sink: 0.08
+    maxSlope: 60
+    addCollider: 1
+    castShadows: 1
+    makeSelectable: 1
+    species: {fileID: 11400000, guid: ebeeb90e9f500439aa5c509541b345e1, type: 2}
+    selectableFraction: 0.25
+    hideWhenCollected: 0
+  - name: Branching corals
+    enabled: 1
+    prefabs: []
+    placeholder: 1
+    zone: 1
+    count: 220
+    scale: {x: 0.5, y: 1.3}
+    minSpacing: 0.9
+    clustering: 0.7
+    alignToSlope: 0.6
+    sink: 0.03
+    maxSlope: 60
+    addCollider: 1
+    castShadows: 1
+    makeSelectable: 1
+    species: {fileID: 11400000, guid: ebeeb90e9f500439aa5c509541b345e1, type: 2}
+    selectableFraction: 0.2
+    hideWhenCollected: 0
+  - name: Plate and encrusting corals
+    enabled: 1
+    prefabs: []
+    placeholder: 2
+    zone: 1
+    count: 110
+    scale: {x: 0.4, y: 1.2}
+    minSpacing: 1
+    clustering: 0.5
+    alignToSlope: 0.9
+    sink: 0.02
+    maxSlope: 60
+    addCollider: 0
+    castShadows: 1
+    makeSelectable: 1
+    species: {fileID: 11400000, guid: ebeeb90e9f500439aa5c509541b345e1, type: 2}
+    selectableFraction: 0.2
+    hideWhenCollected: 0
+  - name: Patch reef coral heads
+    enabled: 1
+    prefabs: []
+    placeholder: 0
+    zone: 3
+    count: 40
+    scale: {x: 0.9, y: 2.4}
+    minSpacing: 0.8
+    clustering: 0.2
+    alignToSlope: 0.4
+    sink: 0.1
+    maxSlope: 60
+    addCollider: 1
+    castShadows: 1
+    makeSelectable: 1
+    species: {fileID: 11400000, guid: ebeeb90e9f500439aa5c509541b345e1, type: 2}
+    selectableFraction: 0.3
+    hideWhenCollected: 0
+  - name: Shells on the sand
+    enabled: 1
+    prefabs:
+    - {fileID: 6253215243712638775, guid: e33d896461f8041f1b420e0fcc0281ac, type: 3}
+    - {fileID: 4538072794659684496, guid: 3a658d50a8faa4f6e8894b0a5cb5ad2c, type: 3}
+    - {fileID: 4352042829816750539, guid: a8a69618cb5c24a04aaedc6cc4d7cfc1, type: 3}
+    placeholder: 4
+    zone: 2
+    count: 45
+    scale: {x: 1.6, y: 2.4}
+    minSpacing: 1
+    clustering: 0.3
+    alignToSlope: 1
+    sink: 0.03
+    maxSlope: 60
+    addCollider: 0
+    castShadows: 0
+    makeSelectable: 1
+    species: {fileID: 0}
+    selectableFraction: 1
+    hideWhenCollected: 1
+  - name: Tiger shark teeth
+    enabled: 1
+    prefabs:
+    - {fileID: 7553662308733895168, guid: d3a7f26248b734be8a32bde9ab83ca26, type: 3}
+    placeholder: 5
+    zone: 2
+    count: 12
+    scale: {x: 1.6, y: 2.4}
+    minSpacing: 1
+    clustering: 0.3
+    alignToSlope: 1
+    sink: 0.03
+    maxSlope: 60
+    addCollider: 0
+    castShadows: 0
+    makeSelectable: 1
+    species: {fileID: 0}
+    selectableFraction: 1
+    hideWhenCollected: 1
+  - name: Urchins and rock invertebrates
+    enabled: 1
+    prefabs: []
+    placeholder: 6
+    zone: 1
+    count: 70
+    scale: {x: 0.07, y: 0.14}
+    minSpacing: 8
+    clustering: 0.6
+    alignToSlope: 0.8
+    sink: 0.1
+    maxSlope: 60
+    addCollider: 0
+    castShadows: 0
+    makeSelectable: 0
+    species: {fileID: 0}
+    selectableFraction: 1
+    hideWhenCollected: 0
+  - name: Seaweed (limu)
+    enabled: 1
+    prefabs:
+    - {fileID: 4634815389836588235, guid: e85db253649484ebea27bf5d4c61aca9, type: 3}
+    placeholder: 0
+    zone: 1
+    count: 160
+    scale: {x: 1.2, y: 2.8}
+    minSpacing: 0.4
+    clustering: 0.7
+    alignToSlope: 0.5
+    sink: 0.02
+    maxSlope: 60
+    addCollider: 0
+    castShadows: 0
+    makeSelectable: 1
+    species: {fileID: 0}
+    selectableFraction: 1
+    hideWhenCollected: 1
+  - name: Coconuts and driftwood
+    enabled: 1
+    prefabs:
+    - {fileID: 8108565357469513323, guid: 14ecb1acb937b4a9caa9447af1b7f2b7, type: 3}
+    - {fileID: 3170344438143815940, guid: 8fd902b67537e4975adf7043b8676cc8, type: 3}
+    placeholder: 0
+    zone: 2
+    count: 10
+    scale: {x: 1.6, y: 2.4}
+    minSpacing: 3
+    clustering: 0.2
+    alignToSlope: 1
+    sink: 0.04
+    maxSlope: 60
+    addCollider: 0
+    castShadows: 1
+    makeSelectable: 1
+    species: {fileID: 0}
+    selectableFraction: 1
+    hideWhenCollected: 1
+  tigerShark:
+    name: Animal
+    enabled: 1
+    route: 1
+    prefab: {fileID: 253508178522936767, guid: 550f8e076367644e2a21740b23f100c0, type: 3}
+    species: {fileID: 11400000, guid: 37d9067d1bc79416cb59f0d470be094a, type: 2}
+    placeholderLength: 3.4
+    count: 1
+    speed: 0.8
+    pathRadius: {x: 30, y: 24}
+    heightAboveFloor: {x: 2.5, y: 4}
+  swimmingTurtles:
+    name: Animal
+    enabled: 1
+    route: 1
+    prefab: {fileID: 7948512223011213633, guid: 6e959d8fcae17465ca143d359d1d8c4d, type: 3}
+    species: {fileID: 11400000, guid: 9c7f3fbd86def411ca318c0be9b372cb, type: 2}
+    placeholderLength: 1
+    count: 1
+    speed: 0.35
+    pathRadius: {x: 7, y: 6}
+    heightAboveFloor: {x: 1.5, y: 3}
+  restingTurtles:
+    name: Animal
+    enabled: 1
+    route: 1
+    prefab: {fileID: 7948512223011213633, guid: 6e959d8fcae17465ca143d359d1d8c4d, type: 3}
+    species: {fileID: 11400000, guid: 9c7f3fbd86def411ca318c0be9b372cb, type: 2}
+    placeholderLength: 1
+    count: 1
+    speed: 0
+    pathRadius: {x: 20, y: 16}
+    heightAboveFloor: {x: 2, y: 3.5}
+  otherCharacters:
+  - name: Manta Ray
+    enabled: 1
+    route: 0
+    prefab: {fileID: 429212318382085391, guid: a289bb7ae68794225935feb5ac2d7557, type: 3}
+    species: {fileID: 11400000, guid: 4793d3e66ca8f4830bee6759ab0e7ce7, type: 2}
+    placeholderLength: 1
+    count: 1
+    speed: 0.6
+    pathRadius: {x: 24, y: 20}
+    heightAboveFloor: {x: 2.5, y: 4.5}
+  - name: Humpback Whale
+    enabled: 1
+    route: 0
+    prefab: {fileID: 711764929594913189, guid: c6f6de830860e4f54ae0ee7e7459c52b, type: 3}
+    species: {fileID: 11400000, guid: ca063876d9687441ca193d79f47a348c, type: 2}
+    placeholderLength: 1
+    count: 1
+    speed: 0.9
+    pathRadius: {x: 20, y: 16}
+    heightAboveFloor: {x: 4, y: 6}
+  schools:
+  - name: "Humuhumunukunuku\u0101pua\u02BBa"
+    enabled: 1
+    prefab: {fileID: 5021008644290857916, guid: ffa91fe55b6214907abb07425c25de61, type: 3}
+    species: {fileID: 11400000, guid: e1f573be804fa4707872df6321132c28, type: 2}
+    placeholderLength: 0.25
+    placeholderColor: {r: 0.86, g: 0.8, b: 0.62, a: 1}
+    behaviour: 2
+    zone: 0
+    groups: 6
+    fishPerGroup: 2
+    homeRadius: 2.5
+    cruiseSpeed: 0.4
+    heightAboveFloor: 0.6
+    nearSpawn: 32
+  - name: Reef fish school
+    enabled: 0
+    prefab: {fileID: 0}
+    species: {fileID: 11400000, guid: d605fced162cc49ff849e2c673278c13, type: 2}
+    placeholderLength: 0.2
+    placeholderColor: {r: 1, g: 0.85, b: 0.1, a: 1}
+    behaviour: 0
+    zone: 3
+    groups: 3
+    fishPerGroup: 22
+    homeRadius: 5
+    cruiseSpeed: 0.6
+    heightAboveFloor: 2.2
+    nearSpawn: 45
+  - name: Reef fish over spurs
+    enabled: 0
+    prefab: {fileID: 0}
+    species: {fileID: 11400000, guid: d605fced162cc49ff849e2c673278c13, type: 2}
+    placeholderLength: 0.18
+    placeholderColor: {r: 0.35, g: 0.5, b: 0.9, a: 1}
+    behaviour: 1
+    zone: 0
+    groups: 3
+    fishPerGroup: 16
+    homeRadius: 6
+    cruiseSpeed: 0.5
+    heightAboveFloor: 2.5
+    nearSpawn: 0
+  - name: Coral Reef Fish
+    enabled: 1
+    prefab: {fileID: 4939194566197286955, guid: a1876cbe3148e43dc8a0dfd345130218, type: 3}
+    species: {fileID: 11400000, guid: ec69ea22a4a6d45a9b27d83a7ec91c94, type: 2}
+    placeholderLength: 0.2
+    placeholderColor: {r: 1, g: 0.85, b: 0.1, a: 1}
+    behaviour: 0
+    zone: 3
+    groups: 3
+    fishPerGroup: 18
+    homeRadius: 4.5
+    cruiseSpeed: 0.6
+    heightAboveFloor: 1.8
+    nearSpawn: 40
+  - name: Parrotfish
+    enabled: 1
+    prefab: {fileID: 8150734585203275705, guid: 0aac2259d55c2461ab550256514b403d, type: 3}
+    species: {fileID: 11400000, guid: 2385665b7feb84cd5b38ffce2d0ea43b, type: 2}
+    placeholderLength: 0.2
+    placeholderColor: {r: 1, g: 0.85, b: 0.1, a: 1}
+    behaviour: 1
+    zone: 0
+    groups: 4
+    fishPerGroup: 5
+    homeRadius: 5
+    cruiseSpeed: 0.45
+    heightAboveFloor: 1.2
+    nearSpawn: 0
+  - name: Tuna
+    enabled: 1
+    prefab: {fileID: 2921468926304338703, guid: c04eb68549ecd44d68617774ed65a6ca, type: 3}
+    species: {fileID: 11400000, guid: 3160242970f9142a59a39b385b157b69, type: 2}
+    placeholderLength: 0.2
+    placeholderColor: {r: 1, g: 0.85, b: 0.1, a: 1}
+    behaviour: 0
+    zone: 2
+    groups: 1
+    fishPerGroup: 9
+    homeRadius: 12
+    cruiseSpeed: 1.3
+    heightAboveFloor: 5
+    nearSpawn: 0
+  lightShaftCount: 14
+  marineSnowCount: 2200
+  causticFrames: 32
+  causticResolution: 256
+  causticTileSize: 5
+  fogDensity: 0.05
+  disableCCDemoObjects: 1

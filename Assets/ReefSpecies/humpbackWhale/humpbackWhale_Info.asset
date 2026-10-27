@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a979aa6eaf4816b55db98ca153af0, type: 3}
+  m_Name: humpbackWhale_Info
+  m_EditorClassIdentifier: Assembly-CSharp::Reef.SpeciesData
+  hawaiianName: "Kohol\u0101"
+  commonName: Humpback whale
+  scientificName: Megaptera novaeangliae
+  category: 9
+  nativeStatus: 0
+  conservationStatus: 
+  sizeText: 
+  description: "- The physical manifestation of Kanaloa, the god of the ocean\r\n-
+    Honored as as powerful \u02BBaum\u0101kua (ancestral guardians) \r\n- Featured
+    in the Kumulipo as one of the fundamental creatures born during the deep night
+    of creation"
+  funFact: 
+  image: {fileID: 0}
+  namePronunciation: {fileID: 0}
+  collectible: 0
+  points: 1
+  accentColor: {r: 1, g: 0.82, b: 0.35, a: 1}

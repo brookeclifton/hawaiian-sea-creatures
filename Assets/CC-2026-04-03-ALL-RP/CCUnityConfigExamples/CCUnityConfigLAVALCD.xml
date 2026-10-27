@@ -1,0 +1,37 @@
+<!--This configuration is for the Planar LCD display formerly in Keller 102-->
+<config>
+
+	<!--Which platform you are on.  Wall-->
+	<platform>Wall</platform>
+
+	<!-- Set this to 0 for Pele display wall as it uses the Matrox TripleHead2Go. -->
+	<fullscreen>0</fullscreen>
+
+	<!--Total horizontal resolution of wall in pixels-->
+	<screenwidth>8196</screenwidth>
+
+	<!--Total vertical resolution of wall in pixels-->
+	<screenheight>2304</screenheight>
+
+	<!--Interaxial (eye separation) 61mm-->
+	<interaxial>0.061</interaxial>
+
+	<!-- 0 is interlace, 1 is side-by-side -->
+	<stereomode>0</stereomode>
+
+	<invertstereo>0</invertstereo>
+
+	<!-- Wall width and height are dimensions of the physical display wall in meters-->
+	<wallwidth>6.18871</wallwidth>
+	<wallheight>1.75006</wallheight>
+
+	<!-- Wall position is the location of the center of your physical display wall relative to what you declare is the origin in your physical space (in meters)-->
+	<wallxposition>0</wallxposition>
+	<wallyposition>1.75</wallyposition>
+	<wallzposition>2.282</wallzposition>
+
+	<!-- Head position is the location of the center of your eyes relative to what you declare is the origin in your physical space (in meters)-->
+	<headxposition>0</headxposition>
+	<headyposition>1.76</headyposition>
+	<headzposition>-2</headzposition>		
+</config>

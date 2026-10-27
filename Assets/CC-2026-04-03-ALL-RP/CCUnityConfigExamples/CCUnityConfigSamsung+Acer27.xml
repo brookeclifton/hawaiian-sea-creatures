@@ -1,0 +1,38 @@
+
+<config>
+
+	<!--Which platform you are on.  Wall-->
+	<platform>Wall</platform>
+
+	<!-- Set this to 0 for Pele display wall as it uses the Matrox TripleHead2Go. -->
+	<fullscreen>0</fullscreen>
+
+	<!--Total horizontal resolution of wall in pixels-->
+	<screenwidth>3840</screenwidth>
+
+	<!--Total vertical resolution of wall in pixels-->
+	<screenheight>2160</screenheight>
+
+	<!--Interaxial (eye separation) 61mm-->
+	<interaxial>0.061</interaxial>
+
+	<!-- 0 is interlace, 1 is side-by-side -->
+	<stereomode>1</stereomode>
+
+	<invertstereo>0</invertstereo>
+
+	<!-- Wall width and height are dimensions of the physical display wall in meters-->
+	<wallwidth>0.61</wallwidth>
+	<wallheight>0.35</wallheight>
+
+	<!-- Wall position is the location of the center of your physical display wall relative to what you declare is the origin in your physical space (in meters)-->
+	<wallxposition>0</wallxposition>
+	<wallyposition>1.041</wallyposition>
+	<wallzposition>0.68</wallzposition>
+
+	<!-- Head position is the location of the center of your eyes relative to what you declare is the origin in your physical space (in meters)-->
+	<headxposition>0</headxposition>
+	<headyposition>1.041</headyposition>
+	<headzposition>0</headzposition>
+	
+</config>

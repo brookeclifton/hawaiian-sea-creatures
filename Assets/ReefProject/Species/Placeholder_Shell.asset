@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a979aa6eaf4816b55db98ca153af0, type: 3}
+  m_Name: Placeholder_Shell
+  m_EditorClassIdentifier: Assembly-CSharp::Reef.SpeciesData
+  hawaiianName: 
+  commonName: Shell
+  scientificName: 
+  category: 4
+  nativeStatus: 0
+  conservationStatus: 
+  sizeText: 
+  description: 
+  funFact: 
+  image: {fileID: 0}
+  namePronunciation: {fileID: 0}
+  collectible: 1
+  points: 1
+  accentColor: {r: 0.9, g: 0.75, b: 1, a: 1}

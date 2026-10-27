@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 922b81e9d83af40f3ab57d6c8a92274b, type: 3}
+  m_Name: Leiomano
+  m_EditorClassIdentifier: Assembly-CSharp::Reef.ReefRecipe
+  hawaiianName: Leiomano
+  englishName: Shark tooth weapon
+  image: {fileID: 2800000, guid: 977b3ca37e3874c2db13e48b407a84f8, type: 3}
+  ingredients:
+  - label: Tiger shark tooth
+    count: 1
+    accepts:
+    - {fileID: 11400000, guid: 7cad5c06ae7564aef840be2475da8d26, type: 2}
+  - label: Driftwood
+    count: 1
+    accepts:
+    - {fileID: 11400000, guid: 529a71780721a441a8acf85134c5ae09, type: 2}

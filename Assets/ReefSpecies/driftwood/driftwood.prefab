@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3170344438143815940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5071091874712743449}
+  - component: {fileID: 7361871368895826033}
+  m_Layer: 0
+  m_Name: driftwood
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5071091874712743449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3170344438143815940}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1563378579849600162}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7361871368895826033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3170344438143815940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8d3c722caeb47c6b14b51da04f0164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Reef.SelectableSpecies
+  species: {fileID: 11400000, guid: 529a71780721a441a8acf85134c5ae09, type: 2}
+  focusPoint: {fileID: 0}
+  captureRadius: 0
+  minimumCaptureRadius: 0.25
+  selectable: 1
+  hideWhenCollected: 1
+--- !u!1001 &3173612257262042514
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5071091874712743449}
+    m_Modifications:
+    - target: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151640160188731784, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+      propertyPath: m_Name
+      value: driftwood
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+--- !u!4 &1563378579849600162 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4159306259634200880, guid: aeb8df13fb6bd45a1816355e0aae2b92, type: 3}
+  m_PrefabInstance: {fileID: 3173612257262042514}
+  m_PrefabAsset: {fileID: 0}
